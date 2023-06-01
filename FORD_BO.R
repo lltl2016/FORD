@@ -6,7 +6,7 @@
 ## t is the information fraction at the interim analysis
 ## c1n and c1p is the interim analysis futility cutoffs
 ## eff_bound takes in a vector of length 2 specifying the efficacy bound of users choice
-FORD_BPO = function(mu_pos,mu_neg,mu,sigma,N,prev,t,c1n,c1p,eff_bound){
+FORD_BO = function(mu_pos,mu_neg,mu,sigma,N,prev,t,c1n,c1p,eff_bound){
   PET = PET.n = PETE = SS= rejpos = rejO =0
   route = 0
   Nn = round(N * (1-prev))
