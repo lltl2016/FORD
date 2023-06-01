@@ -5,3 +5,6 @@ In randomized placebo controlled trials with a predefined subgroup based on base
 FORD_BPO.R implements the FORD B+/O design. 
 
 FORD_BPN.R implements the FORD B+/B- design. 
+
+# Reference
+Li, L., and Ivanova, A. (2023). Order restricted designs for biomarker-stratified trials. Submitted.
