@@ -1,6 +1,4 @@
-{simu_or}
-
-# Two-stage order-restrcited B+/B- design
+# `simu_or`: Two-stage order-restrcited B+/B- design
 
 ## Description:
 
@@ -43,9 +41,8 @@ simu_or(mu_pos = 0.3, mu_neg= 0.3, delta= 0.3, N=300, N2en=150, N2ep=150, prev=0
 
 
 
-{simu_order_restricted}
 
-# Repeated Simulation of Two-stage order-restrcited B+/B- design based on three scenario considered
+# `simu_order_restricted` : Repeated Simulation of Two-stage order-restrcited B+/B- design based on three scenario considered
 
 ## Description:
 
