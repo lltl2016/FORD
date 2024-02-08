@@ -35,6 +35,7 @@ simu_or(mu_pos, mu_neg, delta, N, N2en, N2ep, prev, t, c1n, c1p, eff_bound, true
 
 ## Examples:
 library(sn)
+
 simu_or(mu_pos = 0.3, mu_neg= 0.3, delta= 0.3, N=300, N2en=150, N2ep=150, prev=0.5, t=0.5, c1n=1.2, c1p=1.4, eff_bound=c(0.0025, 0.024), TruePrev = 0.6)
 
 
@@ -72,4 +73,5 @@ Three vectors length of 7 will be returned. It is the average of the 7 returned 
 
 ## Examples:
 library(sn)
+
 simu_order_restricted(stoprateN = 0.1, stoprateP = 0.1, eff_bound=c(0.0025, 0.024),delta= 0.3, N=300, N2en=150, N2ep=150, prev=0.5, t=0.5,TruePrev = 0.6,n.sim = 100000)
